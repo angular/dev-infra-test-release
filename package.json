@@ -1,6 +1,6 @@
 {
   "name": "dev-infra-test-release",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "private": true,
   "repository": "https://github.com/angular/dev-infra-test-release.git",
