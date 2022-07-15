@@ -6,7 +6,7 @@ import {fileURLToPath} from 'url';
 export const projectDir = join(dirname(fileURLToPath(import.meta.url)));
 export const github: GithubConfig = {
   mainBranchName: 'main',
-  name: 'dev-infra-test-release-core',
+  name: 'dev-infra-test-release',
   owner: 'angular',
   private: true,
 };
