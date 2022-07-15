@@ -17,15 +17,8 @@ export const release: ReleaseConfig = {
   representativeNpmPackage: corePkgName,
   npmPackages: [{name: corePkgName}],
   buildPackages: async () => {
-    const coreBuildProcess = spawnSync('yarn', ['-s', 'build-core'], {
-      shell: true,
-      stdio: 'inherit',
-      cwd: projectDir,
-    });
-
-    if (coreBuildProcess.error || coreBuildProcess.status !== 0) {
-      throw new Error('Could not build core package. See output above.');
-    }
+    // Build the core package by loading the script.
+    await import('../scripts/build-core.mjs');
 
     return [
       {
