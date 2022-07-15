@@ -1,0 +1,7 @@
+{
+  "name": "dev-infra-test-release-core",
+  "version": "1.0.0",
+  "exports": {
+    ".": "./index.js"
+  }
+}

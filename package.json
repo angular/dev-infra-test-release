@@ -6,7 +6,8 @@
   "repository": "https://github.com/angular/dev-infra-test-release.git",
   "license": "MIT",
   "scripts": {
-    "ng-dev": "ts-node --esm --project .ng-dev/tsconfig.json node_modules/@angular/dev-infra-private/ng-dev/bundles/cli.mjs"
+    "ng-dev": "ts-node --esm --project .ng-dev/tsconfig.json node_modules/@angular/dev-infra-private/ng-dev/bundles/cli.mjs",
+    "build-core": "rm -Rf dist/core && yarn tsc -p packages/core/tsconfig.json && cp packages/core/package.json dist/core"
   },
   "dependencies": {
     "@angular/dev-infra-private": "https://github.com/angular/dev-infra-private-builds.git#8ac442b0e0b12f29eca7da0807910b6c0eeca1cc",
