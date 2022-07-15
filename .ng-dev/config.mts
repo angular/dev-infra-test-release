@@ -1,4 +1,4 @@
-import {GithubConfig, ReleaseConfig} from '@angular/dev-infra-private/ng-dev';
+import {GithubConfig, PullRequestConfig, ReleaseConfig} from '@angular/dev-infra-private/ng-dev';
 import {spawnSync} from 'child_process';
 import {join, dirname} from 'path';
 import {fileURLToPath} from 'url';
@@ -34,4 +34,10 @@ export const release: ReleaseConfig = {
       },
     ];
   },
+};
+
+export const pullRequest: PullRequestConfig = {
+  commitMessageFixupLabel: 'commit message fixup',
+  githubApiMerge: {default: 'rebase'},
+  mergeReadyLabel: 'merge ready',
 };
