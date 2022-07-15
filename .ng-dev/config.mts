@@ -3,7 +3,7 @@ import {spawnSync} from 'child_process';
 import {join, dirname} from 'path';
 import {fileURLToPath} from 'url';
 
-export const projectDir = join(dirname(fileURLToPath(import.meta.url)));
+export const projectDir = join(dirname(fileURLToPath(import.meta.url)), '../');
 export const github: GithubConfig = {
   mainBranchName: 'main',
   name: 'dev-infra-test-release',
