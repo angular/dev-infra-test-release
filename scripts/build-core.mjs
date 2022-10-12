@@ -4,6 +4,7 @@ import {fileURLToPath} from 'url';
 import {readFile, writeFile} from 'fs/promises';
 
 const projectDir = join(dirname(fileURLToPath(import.meta.url)), '../');
+
 cd(projectDir);
 
 await $`rm -Rf dist/core`;
