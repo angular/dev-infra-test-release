@@ -8,10 +8,9 @@ permissions:
   statuses: write
 
 jobs:
-  google-internal-tests-enforcement:
+  trigger:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b # tag=v3.0.2
       - uses: angular/dev-infra/github-actions/google-internal-tests@c1dca166f21a2910191e291d11418270eae1ff0c
         with:
           run-tests-guide-url: http://go/angular/g3sync
