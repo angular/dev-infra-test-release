@@ -3,5 +3,6 @@
   "version": "<PLACEHOLDER>",
   "exports": {
     ".": "./index.js"
-  }
+  },
+  "license": "MIT"
 }
