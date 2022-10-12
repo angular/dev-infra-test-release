@@ -12,7 +12,7 @@ jobs:
   trigger:
     runs-on: ubuntu-latest
     steps:
-      - uses: angular/dev-infra/github-actions/google-internal-tests@455d625537f4d6c8a01d070aa4b0bee59635f1bc
+      - uses: angular/dev-infra/github-actions/google-internal-tests@fac5f7cd944a71f4680a1754164a5fd92e3b8866
         with:
           run-tests-guide-url: http://go/angular/g3sync
           github-token: ${{ secrets.GITHUB_TOKEN }}
