@@ -1,5 +1,4 @@
-import {GithubConfig, ReleaseConfig} from '@angular/dev-infra-private/ng-dev';
-import {spawnSync} from 'child_process';
+import {GithubConfig, ReleaseConfig} from '@angular/ng-dev';
 import {join, dirname} from 'path';
 import {fileURLToPath} from 'url';
 
