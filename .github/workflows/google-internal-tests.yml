@@ -12,12 +12,13 @@ jobs:
   trigger:
     runs-on: ubuntu-latest
     steps:
-      - uses: angular/dev-infra/github-actions/google-internal-tests@453ff04991d515ef0f37526194a1d64c14a97e2d
+      - uses: angular/dev-infra/github-actions/google-internal-tests@455d625537f4d6c8a01d070aa4b0bee59635f1bc
         with:
           run-tests-guide-url: http://go/angular/g3sync
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          affected-file-patterns: |
+          synced-files: |
             packages/core/**
             scripts/**
-
-
+          always-external-files: |
+            # Works
+            packages/core/*.json
