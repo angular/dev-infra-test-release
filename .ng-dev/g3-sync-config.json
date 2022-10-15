@@ -1,4 +1,4 @@
 {
   "syncedFilePatterns": ["packages/**"],
-  "alwaysExternalFilePatterns": ["packages/*.json"]
+  "alwaysExternalFilePatterns": ["packages/**/*.json"]
 }
