@@ -1,3 +1,10 @@
+<a name="1.0.3"></a>
+# 1.0.3 (2022-12-22)
+## Special Thanks
+Paul Gschwendtner
+
+<!-- CHANGELOG SPLIT MARKER -->
+
 <a name="2.0.0-next.0"></a>
 # 2.0.0-next.0 (2022-12-22)
 ### 
