@@ -1,4 +1,4 @@
-import {GithubConfig, ReleaseConfig} from '@angular/ng-dev';
+import {GithubConfig, PullRequestConfig, ReleaseConfig} from '@angular/ng-dev';
 import {join, dirname} from 'path';
 import {fileURLToPath} from 'url';
 
@@ -26,4 +26,8 @@ export const release: ReleaseConfig = {
       },
     ];
   },
+};
+
+export const pullRequest: PullRequestConfig = {
+  githubApiMerge: {default: 'rebase'},
 };
