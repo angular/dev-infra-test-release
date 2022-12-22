@@ -1,3 +1,3 @@
 console.info('Works!');
 
-console.info('Yay!');
+console.info('Yay! Support new TS');
