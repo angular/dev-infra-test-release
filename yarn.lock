@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@angular/ng-dev@file:angular-ng-dev-0.0.0-2bf711b016b23e1c5f51c5f8c8c5e00ccdf10c6c.tgz":
-  version "0.0.0-2bf711b016b23e1c5f51c5f8c8c5e00ccdf10c6c"
-  resolved "file:angular-ng-dev-0.0.0-2bf711b016b23e1c5f51c5f8c8c5e00ccdf10c6c.tgz#f1ec5b167d0054af998e825a25c6fd65c5b1d06e"
+"@angular/ng-dev@file:angular-ng-dev-0.0.0-c846876ba98606ac81c848fb7f7bc75a3f725c86.tgz":
+  version "0.0.0-c846876ba98606ac81c848fb7f7bc75a3f725c86"
+  resolved "file:angular-ng-dev-0.0.0-c846876ba98606ac81c848fb7f7bc75a3f725c86.tgz#aec1cf5f9b994bced4ca9ce5243a26c092911844"
   dependencies:
     "@yarnpkg/lockfile" "^1.1.0"
     typescript "~4.8.0"
