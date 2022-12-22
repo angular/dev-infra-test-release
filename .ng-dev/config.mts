@@ -29,7 +29,5 @@ export const release: ReleaseConfig = {
 };
 
 export const pullRequest: PullRequestConfig = {
-  commitMessageFixupLabel: 'commit message fixup',
   githubApiMerge: {default: 'rebase'},
-  mergeReadyLabel: 'merge ready',
 };
